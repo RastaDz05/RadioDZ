@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>#RadioDZ - Live Streaming</title>
+
+<!-- Open Graph pour embed IRC / réseaux -->
+<meta property="og:title" content="#RadioDZ - Live Streaming">
+<meta property="og:description" content="Écoutez #RadioDZ en direct - 100% musique DZ & vibes.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://TON-PSEUDO.github.io/NOM-DU-REPO/">
+<meta property="og:image" content="https://TON-PSEUDO.github.io/NOM-DU-REPO/logo.jpg">
+
+<style>
+body {
+    margin: 0;
+    background: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    padding: 40px 20px;
+}
+
+img {
+    width: 200px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+audio {
+    width: 90%;
+    max-width: 400px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+    <img src="logo.jpg" alt="#RadioDZ Logo">
+    <h1>#RadioDZ</h1>
+    <p>🎧 Live Streaming Officiel</p>
+
+    <audio controls autoplay>
+        <source src="https://stream.zeno.fm/y9rchc1djgavv" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'audio.
+    </audio>
+</div>
+</body>
+</html>
